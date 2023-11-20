@@ -28859,6 +28859,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2026468946213702806, guid: 4aa0730ea0b1c3e42839b173ce364dc3, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 1448759c00be17647b5e7fdd9392d12d, type: 3}
     - target: {fileID: 4495878000909845841, guid: 4aa0730ea0b1c3e42839b173ce364dc3, type: 3}
       propertyPath: m_Name
       value: Player
@@ -28926,10 +28930,7 @@ PrefabInstance:
     - {fileID: 8154086964852628759, guid: 4aa0730ea0b1c3e42839b173ce364dc3, type: 3}
     - {fileID: 4440543873907716227, guid: 4aa0730ea0b1c3e42839b173ce364dc3, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4495878000909845841, guid: 4aa0730ea0b1c3e42839b173ce364dc3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1191947385}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4aa0730ea0b1c3e42839b173ce364dc3, type: 3}
 --- !u!1 &701830564
 GameObject:
@@ -42695,43 +42696,11 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1191947380 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4495878000909845841, guid: 4aa0730ea0b1c3e42839b173ce364dc3, type: 3}
-  m_PrefabInstance: {fileID: 699321320}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1191947384 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6058258144785745727, guid: 4aa0730ea0b1c3e42839b173ce364dc3, type: 3}
   m_PrefabInstance: {fileID: 699321320}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1191947385
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1191947380}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1193095121
 GameObject:
   m_ObjectHideFlags: 0

@@ -11950,6 +11950,7 @@ GameObject:
   - component: {fileID: 2026468946213702806}
   - component: {fileID: -6258432947592901073}
   - component: {fileID: 9081237142358295416}
+  - component: {fileID: 8768734684296946363}
   m_Layer: 0
   m_Name: New Prefab
   m_TagString: Untagged
@@ -12030,7 +12031,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4495878000909845841}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c1a42000341ea7409c277949774e86c, type: 3}
   m_Name: 
@@ -12039,6 +12040,20 @@ MonoBehaviour:
   jumpForce: 4
   gravity: 0
   maxJumps: 2
+--- !u!114 &8768734684296946363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4495878000909845841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5b996dc4507854e88ee2ef0223bf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  turnspeed: 45
 --- !u!1 &4502903466120505647
 GameObject:
   m_ObjectHideFlags: 0
